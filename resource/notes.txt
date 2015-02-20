@@ -1,0 +1,6 @@
+modified:
+
+lower accuracy on smallarms (see set/small.firearms.accuracy for more)
+increased burst and reload timeouts (/set/stuff/) smg, mgun, rifle
+increased effectiveness of cover (difficulty)
+

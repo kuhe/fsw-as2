@@ -1,0 +1,69 @@
+{environment
+	{light
+		{direction 0.828 0.219 -0.516}
+		{ambient 0xff383e46}
+		{diffuse 0xffa6947c}
+		{specular 0xffffffff}
+		{lightsIntensity 0.05}
+		{night_vision 1}
+		{color_correction
+			{contrast 1.1}
+			{saturation 0.7}
+			{tone 0xff000032}
+			{tone_strength 0.1}
+		}
+		{humans_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+		{vehicles_light
+			{user_ambient 0xffffffff}
+			{user_diffuse 0xffffffff}
+			{ally_ambient 0xffffffff}
+			{ally_diffuse 0xffffffff}
+			{enemy_ambient 0xffffffff}
+			{enemy_diffuse 0xffffffff}
+		}
+	}
+	{shadow
+		{alpha 0.6}
+		{color 0xff001728}
+	}
+	{wind
+		{speed 0 0.5 0}
+		{amplitude 2}
+	}
+	{haze
+		{enable}
+		{color 0xffe5ffff}
+		{start 0}
+		{end 4500}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/clouds.ebm"}
+		{size 1 1}
+		{globalEnvironment "/texture/common/environment/day_03"}
+	}
+	{cloudsonwater
+		{texture "/texture/common/environment/sky_dx.ebm"}
+		{size 2 2}
+		{scrollSpeed 0.5 0.5}
+		{windSpeed 0.0001 0.0001}
+	}
+	{weather
+		{enable}
+		{density 50}
+		{fx "snow"}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+}

@@ -1,0 +1,155 @@
+{levelofdetail
+;	{"test"
+;		{distance 700}    ; LOD1
+;		{distance 1000    ; LOD2
+;			{NoFog}          ; 
+;			{NoGetShadow}   ; 
+;			{NoCastShadow}  ; 
+;			{off}         ;
+;		}
+;	}
+	{"human"
+		{distance 300
+			; LOD1
+		}
+		{distance 800
+			; LOD2
+		}
+		{distance 1500
+			{NoGetShadow}
+		}
+		{distance 2000
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 4000
+			{off}
+		}
+	}
+	{"vehicle_small"
+		{distance 1500
+			{NoGetShadow}
+		}
+		{distance 2500
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 5000
+			{off}
+		}
+	}
+	{"vehicle_big"
+		{distance 2000
+			{NoGetShadow}
+		}
+		{distance 3000
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 6000
+			{off}
+		}
+	}
+	{"stuff_small"
+		{distance 500
+			; LOD1
+		}
+		{distance 1000
+			{NoGetShadow}
+		}
+		{distance 1250
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 1500
+			{off}
+		}
+	}
+	{"part_small"
+		{distance 500
+			; LOD1
+		}
+		{distance 1000
+			{NoGetShadow}
+		}
+		{distance 1500
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 2000
+			{off}
+		}
+	}
+	{"part_big"
+		{distance 1000
+			; LOD1
+		}
+		{distance 1500
+			{NoGetShadow}
+		}
+		{distance 2000
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 2500
+			{off}
+		}
+	}
+	{"decor_small"
+		{distance 750
+			; LOD1
+		}
+		{distance 1500
+			{NoGetShadow}
+		}
+		{distance 2000
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 3000
+			{off}
+		}
+	}
+	{"decor_medium"
+		{distance 1500
+			; LOD1
+		}
+		{distance 2000
+			{NoGetShadow}
+		}
+		{distance 2500
+			{NoFog}
+			{NoCastShadow}
+		}
+		{distance 5000
+			{off}
+		}
+	}
+	{"decor_big"
+		{distance 2000
+			; LOD1
+		}
+		{distance 2500
+			{NoGetShadow}
+		}
+		{distance 3000
+			{NoFog}
+			{NoCastShadow}
+		}
+	}
+	{"decor_tree"
+		{distance 750
+			; LOD1
+		}
+		{distance 1500
+			; LOD2
+		}
+		{distance 2000
+			{NoGetShadow}
+		}
+		{distance 3000
+			{NoFog}
+			{NoCastShadow}
+		}
+	}
+}
