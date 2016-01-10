@@ -1,5 +1,0 @@
-;SDL
-{resourceSyncer
-	{excludeMasks	"*.scc;*.txt;*.backup;*.bak;*.org;*.s_*;*.msg;*.lng;*.dds;*.ebm;*.bmp;*.tga;*.wav"}
-	{crcFileMasks 	"/set/*;*.set;*.inc;*.ext;*/map;*.mi;*.reg;*.info"}
-}

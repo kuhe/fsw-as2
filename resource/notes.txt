@@ -1,6 +1,9 @@
 modified:
 
-lower accuracy on smallarms (see set/small.firearms.accuracy for more)
-increased burst and reload timeouts (/set/stuff/) smg, mgun, rifle
-increased effectiveness of cover (difficulty)
+lower accuracy on smallarms           (see set/small.firearms.accuracy for more)
+increased burst and reload timeouts      (/set/stuff/) smg, mgun, rifle
+increased effectiveness of cover         (difficulty)
+
+
+// removed
 reduce chance of helmet flying off (set/interaction_entity/human.inc)
