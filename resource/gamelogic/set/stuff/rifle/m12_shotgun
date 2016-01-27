@@ -11,7 +11,7 @@
 	{cursorReloading "carbine_reload"}
 	{burst
 		{short 1}
-		{Long 6}
+		{Long 2}
 	}
 	{special
 		{throw_off_always}

@@ -172,9 +172,7 @@
 ;				{if	stuff "sniper" {die}}
 ;			}
 			{if rand 0.0
-				{take_off "head"
-					{impulse up 5 2 dir 7 3}
-				}
+
 			}
 		}
 ;		{if volume "body"

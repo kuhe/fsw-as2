@@ -6,7 +6,7 @@
 
 	{burst
 		{short 1 0.5}
-		{Long 3 0.5}
+		{Long 2 0.5}
 	}
 	{Automatic}
 	{healthDamage 150}
