@@ -167,14 +167,16 @@
 			{explosive_treshold 70}
 			{table {30 1} {200 2.5} {500 3} {5000 5}}
 		}
-		{if volume "head"
+;		{if volume "head"
 ;			{if not volume_armored
 ;				{if	stuff "sniper" {die}}
 ;			}
-			{if rand 0.0
-
-			}
-		}
+;			{if rand 0.05
+;				{take_off "head"
+;					{impulse up 5 2 dir 7 3}
+;				}
+;			}
+;		}
 ;		{if volume "body"
 ;			{if not volume_armored
 ;				{if	stuff "pistol"	{if rand 0.08 {call "die"} ("health_damage" c(500))}}
