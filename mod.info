@@ -1,6 +1,6 @@
 {mod
 	{name "Full Spectrum Warrior"}
-	{desc "<c(FDD017)>Full Spectrum Warrior</c>"}
+	{desc "Full Spectrum Warrior"}
     {MinGameVersion "0.650"}
     {MaxGameVersion "3.205.2"}
 }

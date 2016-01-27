@@ -1,0 +1,30 @@
+(include "\set\small.firearms.accuracy")
+
+(define "speed"   
+	{speed (* 0.5 %s)}  
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "burst_short"
+	{burst
+		{short 1 0}
+		{long 2 1}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 2 1}
+		{long 3 1}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 4 1}
+		{long 8 2}
+	}	
+)
