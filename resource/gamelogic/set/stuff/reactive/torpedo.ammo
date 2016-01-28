@@ -1,8 +1,0 @@
-{bullet
-	{inventory
-		{size 8 3}
-		{weight 100}
-	}
-	{entity "torpedo_uboat"}
-	{mass 150}
-}
