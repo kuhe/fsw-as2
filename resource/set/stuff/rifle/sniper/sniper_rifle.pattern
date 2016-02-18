@@ -3,7 +3,7 @@
 	
 	{special
 		{mode aim}
-		{PrepareTime 4.5}
+		{PrepareTime 6.5}
 		{PrepareCursor "aimed_shot"}
 		{accuracy 2.5}
 		{damage 2.5}
