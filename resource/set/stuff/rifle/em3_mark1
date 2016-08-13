@@ -26,6 +26,7 @@
 	{foresight "Foresight3"}
 	{gravity 2}
 	{rechargeTime 15}
+	{reloadAnimBonus 7.5}
 	{curve "cumulative"}
     {projectileDamage 12}
 	{projectileDamageThreshold 1}

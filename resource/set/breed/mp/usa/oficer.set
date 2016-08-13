@@ -9,7 +9,7 @@
 	}
 	{tags "officer"}
 	{perks
-		{"health" "300%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

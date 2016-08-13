@@ -1,3 +1,3 @@
 {difficulty
-	(include "difficulty_heroic.inc")
+	(include "difficulty_generic.inc")
 }

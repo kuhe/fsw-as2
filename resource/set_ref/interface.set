@@ -72,5 +72,9 @@
 			{satisfy yellow}
 			{optimal green}
 		}
+		{hitmarker
+			{show}
+			{time 0.5} ; seconds
+		}
 	}
 }

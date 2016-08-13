@@ -32,10 +32,6 @@
       {spawn "ex_bul_big_snow"}
     else stuff "mortar"
       {spawn "ex_mort_big_snow"}
-	else stuff "big mortar_smoke"
-	  {spawn "mortar_smoke"}
-    else stuff "mortar"
-      {spawn "ex_bomb_big_snow"}
     else stuff "shell size_minimum fg"
       {spawn "ex_fg_minimum"}
     else stuff "shell size_minimum"

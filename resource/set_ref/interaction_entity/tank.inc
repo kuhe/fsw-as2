@@ -2004,43 +2004,12 @@
 	}
 	("burn_by_engine" args 0.3)	
 }
-
-
-;================	special
-(define "snowman"
+{"karlthor tank"
 	{on "add_movement_sound" overload
-		{link_sound "move"			"vehicle/engine/dodge_move_new"	}
-		{link_sound "engine"			"vehicle/wheels/valami"	}
-		{link_sound "engine_end"		"vehicle/engine/pz1_end"}
-		{link_sound "exhaust"			"vehicle/engine/Dodge_end"}
-	}
-	{on pierce overload
-		{if volume "body"
-			{if rand 0.125
-				{call "stat_break"}
-				{call "__explosion"}
-			}
-		}
-	}
-	{on "__explosion"
-		{spawn "tank_die" "basis"}
-		{delete}
-	}
-	{on "explosion"
-		{delete}
+		{link_sound "move"			"vehicle/tracks/karl_track"		}
+		{link_sound "engine"			"vehicle/engine/karl"		}
+		{link_sound "engine_end"		"vehicle/engine/karl_end"	}
+		{link_sound "exhaust"			"vehicle/engine/karl_up" 	}
 	}
 	("burn_by_engine" args 0.3)
-)
-
-{"evil_snowman_1 tank"
-	("snowman")
-}
-{"evil_snowman_2 tank"
-	("snowman")
-}
-{"evil_snowman_3 tank"
-	("snowman")
-}
-{"evil_snowman_4 tank"
-	("snowman")
 }

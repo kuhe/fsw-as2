@@ -37,9 +37,6 @@
     else stuff "big mortar"
       {spawn "ex_mort_big_snow"}
       {spawn "shellhole_big"}
-	else stuff "mortar_smoke"
-	  {spawn "mortar_smoke"}
-	  {spawn "ex_bul_sm_snow"}
     else stuff "mortar"
       {spawn "ex_bomb_big_snow"}
       {spawn "shellhole_medium"}

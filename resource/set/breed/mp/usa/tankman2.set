@@ -8,7 +8,7 @@
 		{head tankhelmet_usa}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}
@@ -31,7 +31,7 @@
 		}
 		{"smg" lvl_2
 		}
-		{"mgun" lvl_1
+		{"mgun" lvl_2
 		}
 		{"rifle" lvl_1
 		}

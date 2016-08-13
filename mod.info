@@ -2,5 +2,5 @@
 	{name "Full Spectrum Warrior"}
 	{desc "Full Spectrum Warrior"}
     {MinGameVersion "0.650"}
-    {MaxGameVersion "3.205.2"}
+    {MaxGameVersion "3.252.0"}
 }

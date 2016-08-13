@@ -8,7 +8,7 @@
 		{head "fieldcap1_ger"}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "200%"
 		}
 		{"health_regeneration" "100%"
 		}

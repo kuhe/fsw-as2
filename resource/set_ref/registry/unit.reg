@@ -193,6 +193,9 @@
 	{"maxson_fix"
 		{structure "maxson"}
 	}
+	{"mg34_stan"
+		{structure "mgun_stan"}
+	}
 	{"mg34_tower"
 		{structure "mgun_stan"}
 	}

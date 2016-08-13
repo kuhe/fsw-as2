@@ -9,7 +9,7 @@
 	{mass 4}
 	{reloadSound "mp44"}
 	{Automatic}
-	{traceFreq 1.0}
+	{traceFreq 1}
 
 	{spreading 1
 		{SpreadPower	1}

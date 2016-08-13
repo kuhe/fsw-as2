@@ -60,21 +60,39 @@
 )
 
 {"cannon"
-        {on pierce
-            ("damage_cannon_process_pierce"
-                staff(ptr)
-                pierce_turret__crew_die(0)
-                pierce_turret__gun_brake(0)
-                pierce_turret__crew_contusion(0)
-            )
-            ("damage_cannon_process_pierce"
-                staff(shell ap)
-                pierce_turret__crew_die(0.5)
-                pierce_turret__gun_brake(0.3)
-                pierce_turret__crew_contusion(1)
-            )
-        }
-        
+	{on break overload
+		{if component "gun"
+			{if not "broken"
+				{set "broken" 1}
+				{crew_emit}
+				{weapon_work "gun" 0}
+				{stat_notify break}
+			}
+		}
+	}
+
+	{on repair
+		{if component "gun"
+			{weapon_work "gun" 1}
+			{set "broken" 0}
+		}
+	}
+	
+	{on pierce
+		("damage_cannon_process_pierce"
+			staff(ptr)
+			pierce_turret__crew_die(0)
+			pierce_turret__gun_brake(0)
+			pierce_turret__crew_contusion(0)
+		)
+		("damage_cannon_process_pierce"
+			staff(shell ap)
+			pierce_turret__crew_die(0.5)
+			pierce_turret__gun_brake(0.3)
+			pierce_turret__crew_contusion(1)
+		)
+	}
+
 	{on break_armor
 		{call "do_armor_break"}
 	}
@@ -236,7 +254,7 @@
 	{on "explosion_sound" overload}
 }
 
-{"mortar"
+{"mortar"	
 	{on spawn overload
 		{link_sound "rotate_turret" "vehicle/turret/mortar"}
 		{link_sound "rotate_gun" "vehicle/turret/medium"}

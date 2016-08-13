@@ -25,9 +25,6 @@
 			{spawn "ex_bul_big"}
 		else stuff "big mortar"
 			{spawn "ex_mort_big"}
-		else stuff "mortar_smoke"
-			{spawn "mortar_smoke"}
-	  		{spawn "spheredust_small_short"}	
 		else stuff "mortar"
 			{spawn "ex_bomb_big"}
 	    else stuff "shell size_minimum fg"

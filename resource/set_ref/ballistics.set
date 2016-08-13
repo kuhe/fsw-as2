@@ -14,13 +14,20 @@
 		{1		1}
 		{1.01	0}
 	}
-
     {curve "cumulative" 
         {0      1.0} 
         {1.0    1.0}     
         {1.5    1.0}     
         {2.0    1.0}     
     }
+	(mod "mp"
+		{curve "cumulative" 
+			{0      1.0}
+			{1.0    1.0}
+			{1.24	1.0}
+			{1.25	  0}
+		}
+	)
 	
     ; distance/aim range  --- damage scale	
 	{curve "bullet"

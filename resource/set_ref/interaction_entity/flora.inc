@@ -1,6 +1,7 @@
 {"tree"
 	{inflammation_time 4}
 	{on spawn
+		{mtl_enable_skin 0}
 		{use_local_light 1}
 		{view hide "shadow_fall"}
 		{call "update_texmod"}
@@ -8,6 +9,7 @@
 	(define "stir"
 		{if not "bare"
 			{if not "started"
+				{mtl_enable_skin 1}
 				{ani_play "stir" 0.35 %params}
 				{set "started" 1}
 			}
@@ -34,6 +36,7 @@
 			{if "started"
 				{set "started" 0}
 				{ani_stop "stir"}
+				{mtl_enable_skin 0}
 			}
 		}
 	}

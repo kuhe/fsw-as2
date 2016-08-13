@@ -2,7 +2,7 @@
 	{filling "bullet40"}
 	{fireSound "gun/45mm_oqf2pdr"}
 	{reloadSound "pak35"}
-	{rechargeTime 3.5}
+	{rechargeTime 3}
 	("range_minimum")
 	
 	("speed" s(808))

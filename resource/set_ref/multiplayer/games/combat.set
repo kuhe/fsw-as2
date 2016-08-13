@@ -19,7 +19,18 @@
 		{friendlyFire}
 		{showPiercing}
 		{showDamageReports}
-		{useUnitLevelRestrictions}
+		{useUnitLevelRestrictions 0}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode alliance}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "preset_alliances.inc")
+		}
 	}
 	(include "presets.inc")
 }

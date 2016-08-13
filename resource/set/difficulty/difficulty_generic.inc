@@ -10,9 +10,9 @@
 
 		{cover_efficiency			; how cover efficiency will drop with distance
 			0		0
-			5		0.10
-			15		0.25
-			25		0.75
+			5		0.15
+			15		0.75
+			25		1.00
 		}
 		{blast_crawl 2.25}			; simply lying on the ground
 		{blast_cover 8.00}          ; in cover from protected side
@@ -20,5 +20,7 @@
 		{blast_cover_prepared 10.00}	; in cover not from protected side, but waiting for explosion
 		{blast_squat 1.15}			; on the knees
 
-		{mounted_mgun 0.5}
+		;{mounted_mgun 0.5}
+		{death_delay_min 30}		; min bleeding out time in seconds
+		{death_delay_max 90}		; max bleeding out time in seconds
 	}

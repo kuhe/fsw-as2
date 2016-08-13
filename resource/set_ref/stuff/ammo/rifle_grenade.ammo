@@ -1,6 +1,6 @@
 {from "pattern rpg_ammo"
 	{entity "em_mk3_ammo"}
-	{tag "fg"}
+	{tag "fg grenade"}
 
 	{view "em_mk3_ammo"
 		{tail "grenade_tail" "tail"}

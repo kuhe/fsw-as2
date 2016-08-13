@@ -8,7 +8,7 @@
 		{head beret_commando}
 	}
 	{perks
-		{"health" "300%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

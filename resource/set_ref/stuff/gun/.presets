@@ -130,8 +130,8 @@
 	("accuracy_zenite_low")
 	{Spreading 1
 		{SpreadPower 1}
-		{BurstRecoveryTime 0.5}
-		{BurstAccuracy 100 90 85 80 75 65 55}
+		{BurstRecoveryTime 0.25}
+		{BurstAccuracy 100 95 90 85 80 70 65 60 55 50}
 	}
 	{SpreadTolerance 0.6}
 	
@@ -145,15 +145,17 @@
 	{burst
 		{short 5 1}
 		{long 8 1}
-	}	
+	}
+	
+	{healthDamage 200}
 )
 
 (define "range_zenite_long"
 	("accuracy_zenite_medium")
 	{Spreading 1
 		{SpreadPower 1}
-		{BurstRecoveryTime 0.5}
-		{BurstAccuracy 100 90 85 80 75 65 55}
+		{BurstRecoveryTime 0.25}
+		{BurstAccuracy 100 95 90 85 80 70 65 60 55 50}
 	}
 	{SpreadTolerance 0.6}
 	
@@ -167,7 +169,9 @@
 	{burst
 		{short 5 1}
 		{long 8 1}
-	}	
+	}
+	
+	{healthDamage 250}
 )
 
 (define "range_minimum"

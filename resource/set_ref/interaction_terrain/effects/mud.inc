@@ -32,12 +32,6 @@
     else stuff "mortar"
       {spawn "ex_mort_big"}
       {spawn "shellhole_big"}
-    else stuff "mortar"
-      {spawn "ex_bomb_big"}
-      {spawn "shellhole_medium"}
-	else stuff "big mortar_smoke"
-	  {spawn "mortar_smoke"}
-	  {spawn "spheredust_small_short"}
     else stuff "big shell extra"
       {spawn "ex_bomb_big"}
       {spawn "crater_norm"}

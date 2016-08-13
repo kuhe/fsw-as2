@@ -1,4 +1,5 @@
 {from "pattern rifle"
+	{tag "autorifle"}
 	{filling "ammo rifle" 30}
 	{entity "m2_carbine"}
 	{fireSound "rifle/m1carbine_shot"}

@@ -298,7 +298,7 @@
 	}
 }
 
-{"sand_bag"
+{"sandbag"
 	{on bullet_hit
 		{if stuff "bullet"
 			{spawn "ex_air_sm"}

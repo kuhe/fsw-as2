@@ -13,13 +13,9 @@
     {spawn "ex_water_big"}
   else stuff "shell ap"
     {spawn "ex_water_sm"}
-  else stuff "mortar"
-    {spawn "ex_water_extra_big"}
-  else stuff "mortar_smoke"
-	{spawn "ex_bul_sm_w"}
-	{spawn "drops_puddle_small2"}
-	{spawn "dustrun_snow_small2"}
   else stuff "big mortar"
+    {spawn "ex_water_extra_big"}
+  else stuff "mortar"
     {spawn "ex_water_big"}
   }
 )
@@ -37,9 +33,9 @@
     {spawn "ex_watersh_big"}
   else stuff "shell ap"
     {spawn "ex_water_sm"}
-  else stuff "mortar"
-    {spawn "ex_water_extra_big"}
   else stuff "big mortar"
+    {spawn "ex_water_extra_big"}
+  else stuff "mortar"
     {spawn "ex_watersh_big"}
   }
 )

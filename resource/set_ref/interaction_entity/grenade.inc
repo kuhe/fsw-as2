@@ -202,13 +202,6 @@
 	}
 }
 
-{"grenade smoke mortar_smoke"
-	{on spawn
-		{volumes disable touch select}
-		{call "activate"}
-	}
-}
-
 {"molotov_coctail"
 	{on bullet_hit
 		{fire radius 1.5 time 2 heating 6 effector}

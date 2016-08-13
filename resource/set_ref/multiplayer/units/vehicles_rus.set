@@ -30,7 +30,7 @@
 ("how" side(rus) name(how_b) c(0) c1(t20) c2(m30_1938) 		t(all artillery) g(c9) b(v2) level(6) cost(700) f(1.0))
 ("how" side(rus) name(how_a) c(0) c1(t20) c2(d1) 			t(all artillery heavyart) g(c8) b(v2) level(9) cost(800) f(1.0))
 
-{"su122"            ("v" c(0) t(all artillery) 			s(rus) n1(3) n2(1) g(c10) sc(40.00) b(v2) cw(0) cp(15)) {level 12} {cost 800} {fore 1.0}}
+{"su122"            ("v" c(0) t(all artillery) 			s(rus) n1(3) n2(1) g(c10) sc(37.50) b(v2) cw(0) cp(15)) {level 12} {cost 750} {fore 1.0}}
 {"isu152"           ("v"  c(0) t(all artillery heavyart) s(rus) n1(4) n2(1) g(c11) sc(67.50) b(v2) cw(0) cp(30)) {level 15} {cost 1350} {fore 1.0}} 	
 {"bm13"             ("vs" c(0) t(all artillery heavyart) s(rus) n(2) g(c12) sc(62.50) b(v2) cw(0) cp(20)) {level 18} {cost 1250} {fore 1.0}}
 

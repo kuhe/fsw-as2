@@ -1,8 +1,8 @@
-{from "pattern gun"		; "bofors"
+{from "pattern gun"		; "bofors" "crusader aa"
 	{filling "bullet40 zenite" 4}
 	{fireSound "gun/37mm_61-k"}
 	{reloadSound "61k_reload"}
-	{rechargeTime 0.5}
+	{rechargeTime 2}
 	("range_zenite_long")
 	
 	("speed" s(881))

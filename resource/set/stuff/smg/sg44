@@ -1,4 +1,5 @@
 {from "pattern smg"
+	{tag "assaultrifle"}
 	{filling "ammo pistol" 30}
 	{mass 5}
 	{entity "sg44"}

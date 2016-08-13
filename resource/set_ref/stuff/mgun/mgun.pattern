@@ -9,7 +9,7 @@
 	}
 	{entity "mg34"}
 	{mass 12}
-	{traceFreq 1.0}
+	{traceFreq 1}
 	{Automatic}
 
 	{range 75 80}

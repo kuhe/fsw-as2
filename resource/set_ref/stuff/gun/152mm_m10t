@@ -4,7 +4,7 @@
 	{reloadSound "tankgun_r04"}
 	("range_grazing_howitzer")
 
-	{range 150 160}
+	{range 140 150}
 	{projectileDamage 104}
 	("damage" a(110) b(105) c(97) d(92) e(80))
 	{parameters "apcr"

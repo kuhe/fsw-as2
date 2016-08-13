@@ -9,7 +9,7 @@
 		{fsm "stuff"}
 	}	
 	{mass 50}
-	{entity "air_bomb_small"}
+	{entity "air_bomb1"}
 	{damage blastwave
 		{energy 25}
 		{area 8 15}

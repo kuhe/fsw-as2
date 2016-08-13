@@ -19,6 +19,7 @@
 		{add_view	"marker_ammo_out" 		"marker_ammo_out" "head"}
 		{add_view	"marker_ammo_refill" 	"marker_ammo_refill" "head"}
 		{add_view	"marker_personage" 		"marker_personage" "head"}
+		{add_view	"marker_personage_acute""marker_personage_acute" "head"}
 		{add_view	"marker_veterancy" 		"marker_veterancy" "head"}
 		
 		{link_sound "move_ground" "human/move/ground"}
@@ -167,16 +168,16 @@
 			{explosive_treshold 70}
 			{table {30 1} {200 2.5} {500 3} {5000 5}}
 		}
-;		{if volume "head"
+		{if volume "head"
 ;			{if not volume_armored
 ;				{if	stuff "sniper" {die}}
 ;			}
-;			{if rand 0.05
-;				{take_off "head"
-;					{impulse up 5 2 dir 7 3}
-;				}
-;			}
-;		}
+			{if rand 0.00
+				{take_off "head"
+					{impulse up 5 2 dir 7 3}
+				}
+			}
+		}
 ;		{if volume "body"
 ;			{if not volume_armored
 ;				{if	stuff "pistol"	{if rand 0.08 {call "die"} ("health_damage" c(500))}}
@@ -750,10 +751,16 @@
 		}
 	}
 	{on "start_personage"
+		{view pause "marker_personage_acute"}
 		{view start "marker_personage"}
 	}
 	{on "stop_personage"
 		{view pause "marker_personage"}
+		{view pause "marker_personage_acute"}
+	}
+	{on "start_personage_acute"
+		{view pause "marker_personage"}
+		{view start "marker_personage_acute"}
 	}
 	{on "start_veterancy"
 		{view start "marker_veterancy"}

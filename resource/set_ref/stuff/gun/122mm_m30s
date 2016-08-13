@@ -4,7 +4,8 @@
 	{reloadSound "tankgun_r04"}
 	("range_grazing_howitzer")
 	
+	("caliber_maximum")
+	
 	{range 130 140}
-	{rechargeTime 20}
-	("caliber_maximum")	
+	("accuracy_minimum")
 }

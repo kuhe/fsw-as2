@@ -1,5 +1,5 @@
 {bullet
-	{tag "ammo ap rocketlauncher shell dropboxed cumulative"}
+	{tag "ammo ap rocketlauncher shell dropboxed cumulative bazooka"}
 	{inventory
 		{weight 100}
 		{size 2 1}

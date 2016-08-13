@@ -19,6 +19,7 @@
 		{add_view	"marker_ammo_out" 		"marker_ammo_out" "head"}
 		{add_view	"marker_ammo_refill" 	"marker_ammo_refill" "head"}
 		{add_view	"marker_personage" 		"marker_personage" "head"}
+		{add_view	"marker_personage_acute""marker_personage_acute" "head"}
 		{add_view	"marker_veterancy" 		"marker_veterancy" "head"}
 		
 		{link_sound "move_ground" "human/move/ground"}
@@ -750,10 +751,16 @@
 		}
 	}
 	{on "start_personage"
+		{view pause "marker_personage_acute"}
 		{view start "marker_personage"}
 	}
 	{on "stop_personage"
 		{view pause "marker_personage"}
+		{view pause "marker_personage_acute"}
+	}
+	{on "start_personage_acute"
+		{view pause "marker_personage"}
+		{view start "marker_personage_acute"}
 	}
 	{on "start_veterancy"
 		{view start "marker_veterancy"}

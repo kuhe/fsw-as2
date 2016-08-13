@@ -2,7 +2,7 @@
 	{filling "bullet37 zenite" 8}
 	{fireSound "gun/37mm_61-k"}
 	{reloadSound "61k_reload"}
-	{rechargeTime 3.0}
+	{rechargeTime 2}
 	("range_zenite_long")
 	
 	("speed" s(770))

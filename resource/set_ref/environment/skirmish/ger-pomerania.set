@@ -3,12 +3,12 @@
 		{direction -0.766 0.336 -0.549}
 		{ambient 0xff323237}
 		{diffuse 0xffb4a082}
-		{specular 0xffffffff}
+		{specular 0xff646464}
 		{lightsIntensity 0.05}
 		{night_vision 1}
 		{color_correction
-			{contrast 1.1}
-			{saturation 0.7}
+			{contrast 1.0}
+			{saturation 0.8}
 			{tone 0xff000032}
 			{tone_strength 0.1}
 			{color_shading
@@ -37,9 +37,9 @@
 	}
 	{sky
 		{enable}
-		{texture "/texture/common/environment/clouds.ebm"}
-		{size 1 1}
-		{globalEnvironment "/texture/common/environment/day_crete"}
+		{texture "/texture/common/environment/environment_day_01"}
+		{globalEnvironment "/texture/common/environment/envmap_glass01"}
+		{intensity 1}
 	}
 	{thunder
 		{color 0xff686c73}
@@ -60,8 +60,8 @@
 		{far_scale 1}
 		{near_start 50}
 		{near_end 75}
-		{far_start 1500}
-		{far_end 5000}
+		{far_start 2000}
+		{far_end 6000}
 		{blur_strength 3}
 	}
 	{glow

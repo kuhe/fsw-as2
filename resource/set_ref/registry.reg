@@ -13,7 +13,6 @@
 	(include "registry/command.reg")
 	(include "registry/hitpoints.reg")
 	(include "registry/steam.reg")
-	(include "registry/control.reg")
 	
 	{common_textures "/texture/common/"}
 

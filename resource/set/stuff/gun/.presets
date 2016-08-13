@@ -109,8 +109,9 @@
 (define "range_autocannon"
 	("accuracy_zenite_high")
 	{spreading 1
-		{SpreadPower	1}
-		{BurstAccuracy 100 90 85 80 75}
+		{SpreadPower 1}
+		{BurstRecoveryTime 0.5}
+		{BurstAccuracy 100 90 85 80 75 65 55}
 	}
 	{SpreadTolerance 0.6}
 	
@@ -118,13 +119,19 @@
 	
     {RelaxationTime 0.2}
 	{gravity 1.5}
+	
+	{burst
+		{short 3 1}
+		{long 5 1}
+	}	
 )
 
 (define "range_zenite"
 	("accuracy_zenite_low")
-	{spreading 1
-		{SpreadPower	1}
-		{BurstAccuracy 100 90 85 80 75}
+	{Spreading 1
+		{SpreadPower 1}
+		{BurstRecoveryTime 0.25}
+		{BurstAccuracy 100 95 90 85 80 70 65 60 55 50}
 	}
 	{SpreadTolerance 0.6}
 	
@@ -134,13 +141,21 @@
 	
     {RelaxationTime 0.2}
 	{gravity 1.5}
+	
+	{burst
+		{short 5 1}
+		{long 8 1}
+	}
+	
+	{healthDamage 200}
 )
 
 (define "range_zenite_long"
 	("accuracy_zenite_medium")
-	{spreading 1
-		{SpreadPower	1}
-		{BurstAccuracy 100 90 85 80 75}
+	{Spreading 1
+		{SpreadPower 1}
+		{BurstRecoveryTime 0.25}
+		{BurstAccuracy 100 95 90 85 80 70 65 60 55 50}
 	}
 	{SpreadTolerance 0.6}
 	
@@ -150,11 +165,18 @@
 	
     {RelaxationTime 0.2}
 	{gravity 1.5}
+	
+	{burst
+		{short 5 1}
+		{long 8 1}
+	}
+	
+	{healthDamage 250}
 )
 
 (define "range_minimum"
-	{spreading 1                
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}	
 	{SpreadTolerance 0.4}
 	{range 100 110}
@@ -172,8 +194,8 @@
 
 (define "range_short"
 	{curve "gun_medium"}
-	{spreading 1
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	{SpreadTolerance 0.4}		
 	{range 110 120}
@@ -191,8 +213,8 @@
  
 (define "range_medium"
 	{curve "gun_heavy"}
-	{spreading 1 
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	{SpreadTolerance 0.4}
 	{range 120 130}
@@ -210,8 +232,8 @@
 
 (define "range_long"
 	{curve "gun_heavy"}
-	{spreading 1
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	{SpreadTolerance 0.4}
 	{range 130 140}
@@ -229,8 +251,8 @@
 
 (define "range_maximum"
 	{curve "gun_heavy"}
-	{spreading 1
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	{SpreadTolerance 0.4}
 	{range 140 150}
@@ -248,8 +270,8 @@
 
 (define "range_light_howitzer"
 	{curve "gun_medium"}
-	{spreading 1
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	("accuracy_lighthowitzer")
 
@@ -274,8 +296,8 @@
 
 (define "range_grazing_howitzer"
 	{curve "gun_medium"}
-	{spreading 1
-		{SpreadPower	1}
+	{Spreading 1
+		{SpreadPower 1}
 	}
 	("accuracy_grazinghowitzer")
 	("caliber_howitzer")
@@ -301,9 +323,9 @@
 )
 
 (define "range_medium_howitzer"
-	{spreading 1
-		{SpreadPower	1}
-		{SpreadYadjust	0.5}
+	{Spreading 1
+		{SpreadPower 1}
+		{SpreadYadjust 0.5}
 	}
 	("accuracy_howitzer")
 	("caliber_howitzer")
@@ -326,9 +348,9 @@
 )
 
 (define "range_heavy_howitzer"
-	{spreading 1
-		{SpreadPower	1}
-		{SpreadYadjust	0.5}
+	{Spreading 1
+		{SpreadPower 1}
+		{SpreadYadjust 0.5}
 	}
 	("accuracy_howitzer")
 	("caliber_howitzer")

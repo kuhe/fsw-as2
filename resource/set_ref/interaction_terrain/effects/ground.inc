@@ -39,13 +39,7 @@
       {spawn "ex_bul_big"}
     else stuff "mortar"
       {spawn "ex_mort_big"}
-      {spawn "shellhole_big"}   
-	else stuff "big mortar_smoke"
-	  {spawn "mortar_smoke"}
-	  {spawn "spheredust_small_short"}
-    else stuff "mortar"
-      {spawn "ex_bomb_big"}
-      {spawn "shellhole_medium"}
+      {spawn "shellhole_big"}
     else stuff "shell size_minimum fg"
       {spawn "ex_fg_minimum"}
       {spawn "grenade_shellhole" terrain_texmod}
