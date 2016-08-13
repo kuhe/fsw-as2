@@ -8,7 +8,7 @@
 		{head cap_jap_off}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}

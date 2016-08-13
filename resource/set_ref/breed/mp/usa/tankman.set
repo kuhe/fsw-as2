@@ -8,7 +8,7 @@
 		{head tankhelmet_usa}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

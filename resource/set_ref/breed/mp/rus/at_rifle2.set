@@ -8,7 +8,7 @@
 		{head helmet1_rus}
 	}
 	{perks
-		{"health" "150%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

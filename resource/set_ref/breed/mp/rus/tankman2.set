@@ -8,7 +8,7 @@
 		{head rw_cap}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

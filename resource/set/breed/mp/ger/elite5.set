@@ -8,7 +8,7 @@
 		{head helmet5_ger}
 	}
 	{perks
-		{"health" "250%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}

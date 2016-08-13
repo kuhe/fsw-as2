@@ -8,7 +8,7 @@
 		{head helmet_airborne_usa}
 	}
 	{perks
-		{"health" "300%"
+		{"health" "350%"
 		}
 		{"health_regeneration" "100%"
 		}

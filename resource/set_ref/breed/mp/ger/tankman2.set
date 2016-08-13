@@ -8,7 +8,7 @@
 		{head "tank_cap1_ger"}
 	}
 	{perks
-		{"health" "200%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}

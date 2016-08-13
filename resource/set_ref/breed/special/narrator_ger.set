@@ -8,7 +8,7 @@
 		{head cap1_ger}
 	}
 	{perks
-		{"health" "100%"
+		{"health" "250%"
 		}
 		{"vision" "mp_officer"
 		}
