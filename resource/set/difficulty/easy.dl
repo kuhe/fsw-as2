@@ -3,33 +3,33 @@
     {enemy
 		{health 1.00}
 		{armor 1.00}
-		{burst 0.80}
-		{accuracy 0.80}
-		{firing_timeout 15.00}
-		{grenade_timeout 15.00}
+		{burst 1.00}
+		{accuracy 1.00}
+		{firing_timeout 1.00}
+		{grenade_timeout 5.00}
 	}
 	{ally
 		{health 1.00}
 		{armor 1.00}
-		{burst 0.80}
-		{accuracy 0.80}
-		{firing_timeout 15.00}
-		{grenade_timeout 15.00}
+		{burst 1.00}
+		{accuracy 1.00}
+		{firing_timeout 1.00}
+		{grenade_timeout 5.00}
 	}
 	{player
 		{health 1.00}
 		{armor 1.00}
-		{burst 0.80}
-		{accuracy 0.80}
-		{firing_timeout 15.00}
-		{grenade_timeout 15.00}
+		{burst 1.00}
+		{accuracy 1.00}
+		{firing_timeout 1.00}
+		{grenade_timeout 5.00}
 	}
  	{neutral
-        {health 1.00}
-        {armor 1.00}
-        {burst 0.80}
-        {accuracy 0.80}
-        {firing_timeout 15.00}
-        {grenade_timeout 15.00}
+		{health 1.00}
+		{armor 1.00}
+		{burst 1.00}
+		{accuracy 1.00}
+		{firing_timeout 1.00}
+		{grenade_timeout 5.00}
 	}
 }
