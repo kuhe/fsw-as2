@@ -1,7 +1,7 @@
 {difficulty
 	(include "difficulty_generic.inc")
     {enemy
-		{health 3.00}
+		{health 1.00}
 		{armor 1.00}
 		{burst 0.80}
 		{accuracy 0.80}
@@ -9,7 +9,7 @@
 		{grenade_timeout 15.00}
 	}
 	{ally
-		{health 3.00}
+		{health 1.00}
 		{armor 1.00}
 		{burst 0.80}
 		{accuracy 0.80}
@@ -17,7 +17,7 @@
 		{grenade_timeout 15.00}
 	}
 	{player
-		{health 3.00}
+		{health 1.00}
 		{armor 1.00}
 		{burst 0.80}
 		{accuracy 0.80}
@@ -25,7 +25,7 @@
 		{grenade_timeout 15.00}
 	}
  	{neutral
-        {health 3.00}
+        {health 1.00}
         {armor 1.00}
         {burst 0.80}
         {accuracy 0.80}
