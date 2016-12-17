@@ -1,5 +1,4 @@
 {breed
-	{behaviour soldier}
 	{hero}
 	{skin "eng_officer"}
 	{portrait "consul"}
