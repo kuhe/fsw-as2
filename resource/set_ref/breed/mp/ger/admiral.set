@@ -1,32 +1,27 @@
 {breed
-	{hero}
-	{skin "us_com"}
-	{portrait "palmer"}
-	{nationality usa}
+	{skin "ger_officer"}
+	{portrait "admiral"}
+	{nationality ger}
 	{icon "officer"}
-	{icon_priority 10}
+	{icon_priority 6}
 	{armors
-		{head cap1_usa}
+		{head cap1_ger}
 	}
 	{tags "officer"}
 	{perks
-		{"health" "200%"
+		{"health" "250%"
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "200%"
+		{"stamina" "100%"
 		}
-		{"stamina_regeneration" "200%"
+		{"stamina_regeneration" "100%"
 		}
 		{"vision" "mp_officer"
 		}
 		{"speed" 1.0
 		}
 		{"field_glass"
-		}
-		{"stealth"
-		}
-		{"telescope"
 		}
 		{"tank"	1.0
 		}
@@ -45,20 +40,19 @@
 		}
 		{"rocketlauncher" lvl_3
 		}
-		{"melee" lvl_3
+		{"melee" "lvl_3"
 		}
-		{"aimedshot"}
 	}
 	{veterancy
 		(include "veterancy_generic.inc")
 		("veterancy_1")
 	}
 	{inventory
-		{item "thompson"}
-		{item "ammo pistol" 130}
-		{item "mk1 grenade" 6}
-		{item "n73at grenade" 2}
-		{item "bandage" 5}		
+		{item "luger" filled}
+		{item "ammo pistol" 30}
+		{item "smoke_paradrop_ammo_heavy grenade" 5}
+		{item "knife_ger"}
+		{item "binocular"}
 		{in_hands 0}
 	}
 }

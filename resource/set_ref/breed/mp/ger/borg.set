@@ -1,9 +1,10 @@
 {breed
+	{hero}
 	{skin "ger_officer"}
 	{portrait "borg"}
 	{nationality ger}
 	{icon "officer"}
-	{icon_priority 6}
+	{icon_priority 10}
 	{armors
 		{head helmet5_ger}
 	}

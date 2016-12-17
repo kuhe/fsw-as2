@@ -1,9 +1,10 @@
 {breed
+	{hero}
 	{skin "rus_t1"}
 	{portrait "kuznetsov_pr"}
 	{nationality rus}
 	{icon "rifleman"}
-	{icon_priority 1}
+	{icon_priority 10}
 	{armors
 		{head "fieldcap_rus"}
 	}

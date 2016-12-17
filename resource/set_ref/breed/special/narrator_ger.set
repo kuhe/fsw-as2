@@ -1,5 +1,6 @@
 {breed
-	{skin "ger-com_hp"}
+	{hero}
+	{skin "ger_officer"}
 	{portrait "narrator_ger"}
 	{nationality ger}
 	{icon "officer"}

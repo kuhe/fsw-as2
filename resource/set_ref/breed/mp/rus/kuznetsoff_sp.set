@@ -1,9 +1,10 @@
 {breed
+	{hero}
 	{skin "rus_sniper"}
 	{portrait "kuznetsov_sp"}
 	{nationality rus}
 	{icon "scout"}
-	{icon_priority 5}
+	{icon_priority 10}
 	{armors
 		{head fieldcap1_rus}
 	}

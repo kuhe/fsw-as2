@@ -1,5 +1,6 @@
 {breed
-	{skin "us_com"}
+	{hero}
+	{skin "us_officer"}
 	{portrait "narrator_usa"}
 	{nationality usa}
 	{icon "officer"}

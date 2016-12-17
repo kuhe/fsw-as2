@@ -1,5 +1,6 @@
 {breed
-	{skin "jap-officer"}
+	{hero}
+	{skin "jap_officer"}
 	{portrait "narrator_jap"}
 	{nationality jap}
 	{icon "officer"}

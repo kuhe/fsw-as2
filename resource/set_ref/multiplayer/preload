@@ -66,6 +66,12 @@ entity	"eg_vis"
 entity	"mine_antipersonnel_vis"
 entity	"mine_antitank_vis"
 
+entity	"dynamite"
+entity	"grenade_smoke"
+entity	"sandbag_kit"
+entity	"repair_kit"
+entity	"bandage"
+
 sound	"vehicle/tracks/tank"
 sound	"vehicle/turret/heavy2"
 sound	"fire/big/big"

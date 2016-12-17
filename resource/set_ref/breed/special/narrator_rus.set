@@ -1,5 +1,6 @@
 {breed
-	{skin "rus-com"}
+	{hero}
+	{skin "rus_officer"}
 	{portrait "narrator_rus"}
 	{nationality rus}
 	{icon "officer"}

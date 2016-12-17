@@ -1,9 +1,10 @@
 {breed
+	{hero}
 	{skin "rus_com"}
 	{portrait "smirnoff"}
 	{nationality rus}
 	{icon "officer"}
-	{icon_priority 6}
+	{icon_priority 10}
 	{armors
 		{head cap1_rus}
 	}

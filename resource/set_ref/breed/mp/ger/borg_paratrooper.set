@@ -1,12 +1,14 @@
 {breed
-	{skin "us_com"}
-	{portrait "palmer"}
-	{nationality usa}
-	{icon "stormtrooper"}
-	{icon_priority 4}
+	{hero}
+	{skin "ger_t3"}
+	{portrait "borg_paratrooper"}
+	{nationality ger}
+	{icon "officer"}
+	{icon_priority 10}
 	{armors
-		{head "helmet1_usa"}
+		{head helmet_paratrooper}
 	}
+	{tags "officer"}
 	{perks
 		{"health" "200%"
 		}
@@ -52,12 +54,13 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "m2_carbine" filled}
-		{item "rifle ammo" 300}
+		{item "sg44" filled}
+		{item "ammo pistol" 500}
 		{item "bandage" 5}
-		{item "grenade m61" 4}
-		{item "grenade n73at" 2}
+		{item "grenade m39" 4}
+		{item "grenade pwm1" 2}
 		{item "smoke grenade" 2}
+		{item "knife_ger"}		
 		{in_hands 0}
 	}
 }

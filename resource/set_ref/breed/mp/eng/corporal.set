@@ -1,11 +1,12 @@
 {breed
-	{skin "eng_t2"}
-	{portrait "eng_soldier2"}
-	{nationality eng}
+	{hero}
+	{skin "us_officer"}
+	{portrait "corporal"}
+	{nationality usa}
 	{icon "smg"}
 	{icon_priority 1}
 	{armors
-		{head "helmet2_eng"}
+		{head "helmet1_usa"}
 	}
 	{perks
 		{"health" "200%"
