@@ -3,7 +3,10 @@
 	{fireSound "gun/howitzer/152mm_ml20"}
 	{reloadSound "tankgun_r04"}
 	("range_grazing_howitzer")
+	("accuracy_grazinghowitzer2")
 
+	{rechargeTime 25}
+	
 	{range 140 150}
 	{projectileDamage 104}
 	("damage" a(110) b(105) c(97) d(92) e(80))

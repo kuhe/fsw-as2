@@ -8,7 +8,7 @@
 	{foresight "Foresight1"}
 	{range 3 5}
 	{spreading 1}
-	{rechargeTime 15}
+	{rechargeTime 5}
 	{speed 75}
     {AimingTolerance 2}
     {RelaxationTime 0.5}

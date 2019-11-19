@@ -6,6 +6,6 @@
 	}
 	{damage blastwave
 		{energy 1}
-		{area 3 9}
+		{area 1 4}
 	}
 }

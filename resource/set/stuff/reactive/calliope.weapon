@@ -2,6 +2,7 @@
 	{filling "ammo calliope" 60}
 	{fireSound "reactive/calliope_burst"}
 	("heavy_artillery")
+	{rechargeTime 180}
 
 	{recoveryTime 0.15}		
 	{aimtype direct}

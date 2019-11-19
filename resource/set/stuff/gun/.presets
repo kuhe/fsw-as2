@@ -12,7 +12,11 @@
 
 
 (define "damage"                                                                                 
-	{projectileDamageTable {10 %a} {50 %b} {75 %c} {100 %d} {125 %e} {250 (* %e 0)}}
+	{projectileDamageTable {10 %a} {50 %b} {75 %c} {100 %d} {125 %e} {130 (* %e 0.95)} {175 (* %e 0)}}
+	; 100m - 500m - 1000m - 1500m - 2000m
+)
+(define "damage2"                                                                                 
+	{projectileDamageTable {10 %a} {50 %b} {75 %c} {100 %d} {125 %e} {150 (* %e 0.8)} {200 (* %e 0)}}
 	; 100m - 500m - 1000m - 1500m - 2000m
 )
 
@@ -81,6 +85,9 @@
 (define "accuracy_grazinghowitzer" 
 	("accuracy_curve_2" r1(1.00))
 )
+(define "accuracy_grazinghowitzer2" 
+	("accuracy_curve_2" r1(1.25))
+)
 (define "accuracy_howitzer" 
 	("accuracy_curve_3" r1(8.00))
 )
@@ -147,7 +154,7 @@
 		{long 8 1}
 	}
 	
-	{healthDamage 200}
+	{healthDamage 150}
 )
 
 (define "range_zenite_long"
@@ -171,7 +178,7 @@
 		{long 8 1}
 	}
 	
-	{healthDamage 250}
+	{healthDamage 200}
 )
 
 (define "range_minimum"

@@ -32,8 +32,8 @@
 	
 	{healthDamage     135}
 	{burst
-		{short 2 0.5}
-		{long 8 1.0}
+		{short 7 0.5}
+		{long 30 5}
 	}
 	("accuracy_mgun")
 }

@@ -6,5 +6,4 @@
 		{weight 100}
 		{fsm "stuff"}
 	}
-	{entity "shell_fg_med"}
 }
