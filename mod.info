@@ -1,6 +1,6 @@
 {mod
 	{name "Full Spectrum Warrior"}
 	{desc "Full Spectrum Warrior"}
-    {MinGameVersion "3.260.0"}
-    {MaxGameVersion "3.260.0"}
+    {MinGameVersion "3.262.1"}
+    {MaxGameVersion "3.262.1"}
 }
