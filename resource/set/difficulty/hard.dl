@@ -1,8 +1,8 @@
 {difficulty
 	(include "difficulty_generic.inc")
     {enemy
-		{health 1.00}
-		{armor 1.00}
+		{health 0.80}
+		{armor 0.80}
 		{burst 1.00}
 		{accuracy 1.00}
 		{firing_timeout 1.00}

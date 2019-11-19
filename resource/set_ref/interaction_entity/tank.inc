@@ -2013,3 +2013,74 @@
 	}
 	("burn_by_engine" args 0.3)
 }
+{"brummbar tank"
+	("pz6_sound")
+	("burn_by_engine" args 0.3)
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 8 time 15 heating 10}
+	}
+	{on fire "gun"
+		{spawn "sturmtiger_fire" inv_normal}
+	}
+	{on "__explosion"
+		{set "big_explosion" 0}
+		{if explosive_amount 50         
+			{blastwave c4 30 r0 8 r1 16}     
+			{blastwave c4 3 r0 20 r1 30}
+			{spawn "train_die" "basis"}
+			{set "big_explosion" 1}
+		}
+	}
+	{on "spawn_shellhole"
+		{if "big_explosion"
+			{spawn "crater_extra_big" "basis" terrain_texmod}
+			{spawn "shellhole_big_dead" "basis"}
+		}
+	}
+}
+{"sdkfz138_1 tank"
+	("wespe_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz234_ger2 tank"
+	("sdkfz234_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz234_1 tank"
+	("sdkfz234_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz234_3 tank"
+	("sdkfz234_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz234_4 tank"
+	("sdkfz234_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz250_1 tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz250_11 tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz251_1_stuka tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz7 tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz7_2 tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}
+{"sdkfz8 tank"
+	("hanomag_sound")
+	("burn_by_engine" args 0.3)
+}

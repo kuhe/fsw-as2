@@ -8,9 +8,9 @@
 	("speed" s(884))
 	("caliber_medium")
 	{projectileDamage 186}
-	("damage" a(186) b(159) c(133) d(110) e(91))
+	("damage2" a(186) b(159) c(133) d(110) e(91))
 	{parameters "apcr"
-        ("damage" a(211) b(179) c(148) d(120) e(96))
+        ("damage2" a(211) b(179) c(148) d(120) e(96))
 	}
 	
 	("accuracy_medium")	

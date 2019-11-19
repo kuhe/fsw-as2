@@ -4,15 +4,15 @@
 	{reloadSound "gun_r02"}
 	{rechargeTime 3}
 	("range_minimum")
-	
+
 	("speed" s(759))
 	("caliber_minimum")
-	{projectileDamage 50}
-	("damage" a(52) b(37) c(24) d(16) e(10))
+	{projectileDamage 61}
+	("damage" a(61) b(45) c(32) d(22) e(15))
 	{parameters "apcr"
-        ("damage" a(77) b(57) c(39) d(26) e(15))
+		("damage" a(86) b(65) c(47) d(32) e(20))
 	}
-	
-	("accuracy_minimum")	
+
+	("accuracy_minimum")
 }
 

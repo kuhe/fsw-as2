@@ -1,7 +1,7 @@
 	{any
 		{translate_damage 1}		; damage multiplier for landmines
-		{cover_hitchance 0.03}   		; the probability of hitting a soldier behind cover
-		{crawl_hitchance 0.45}  		; the probabiltiy of hitting a soldier in crawl position
+		{cover_hitchance 0.13}   		; the probability of hitting a soldier behind cover
+		{crawl_hitchance 0.65}  		; the probabiltiy of hitting a soldier in crawl position
 		{cover_damage 0.45}  		; damage when protected by cover
 
 		{vehicle_burst 10.5}			; increase timeout between bursts for all vehicles

@@ -20,7 +20,7 @@
 
 {"type1hmg_stan"    ("vs" c(300) t(all cannon) 	s(jap) n(2) g(c1) sc(4.50)  b(v2) cw(2) cp(5)) {level 1} {cost 90} {fore 1.0}}
 {"type2_20mm"       ("vs" c(300) t(all cannon) 	s(jap) n(1) g(c2) sc(8.50) b(v2) cw(2) cp(5)) {level 3} {cost 170} {fore 0.5}}
-{"type94"	    	("vs" c(0) t(all cannon mediumcan) 	s(jap) n(2) g(c3) sc(17.50) b(v2) cw(2) cp(5)) {level 5} {cost 350} {fore 1.0}}
+{"type94"	    	("vs" c(300) t(all cannon mediumcan) 	s(jap) n(2) g(c3) sc(16.75) b(v2) cw(2) cp(5)) {level 5} {cost 325} {fore 1.0}}
 
 {"pak47"            ("vs" c(0) t(all cannon) 	s(jap) n(2) g(c4) sc(6.75)  b(v2) cw(2) cp(5)) {level 1} {cost 135} {fore 1.0}}
 {"pak57"            ("vs" c(0) t(all cannon mediumcan) 	s(jap) n(2) g(c5) sc(10.00)  b(v2) cw(2) cp(10)) {level 1} {cost 200} {fore 1.0}}

@@ -12,7 +12,7 @@
 		}
 		{"health_regeneration" "100%"
 		}
-		{"stamina" "150%"
+		{"stamina" "200%"
 		}
 		{"stamina_regeneration" "100%"
 		}
@@ -47,7 +47,7 @@
 		("veterancy_1")
 	}
 	{inventory
-		{item "g43" filled}
+		{item "mauzer" filled}
 		{item "ammo rifle" 100}
 		{item "bandage" 5}
 		{item "grenade m24" 2}

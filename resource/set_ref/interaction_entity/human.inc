@@ -276,13 +276,17 @@
 					{if "die_after_throw"
 						{throw_off up 1.3 0.5 dir 5.5 2 forward 4 turn 0 360 die force}
 					else
-						{throw_off up 1.3 0.5 dir 5.5 2 forward 4 turn 0 360 force}
+						{if "knock_out"
+							{throw_off up 1.3 0.5 dir 5.5 2 forward 4 turn 0 360 force}
+						}
 					}
 				else
 					{if "die_after_throw"
 						{throw_off up 4 0.8 dir 3.5 0.5 forward 0 0 die}
 					else
-						{throw_off up 4 0.8 dir 3.5 0.5 forward 0 0}
+						{if "knock_out"
+							{throw_off up 4 0.8 dir 3.5 0.5 forward 0 0}
+						}
 					}
 				}
 			else

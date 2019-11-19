@@ -322,7 +322,7 @@
 			else work "wheel" 1
 				{chassis_work 1}
 				{if broken "wheel" 2
-					{movement_limit slow}
+					{movement_limit normal}
 				else broken "wheel" 1
 					{movement_limit normal}
 				else
@@ -330,7 +330,7 @@
 				}
 			else
 				;{chassis_work 0}
-				{movement_limit slow}
+				{movement_limit normal}
 			}
 		}
 	}
@@ -682,4 +682,10 @@
 	{on fire "gun"
 		{spawn "startsmoke" inv_normal}
 	}
+}
+{"kfz15 car"
+	("horch_sound")
+}
+{"kfz15_gun car"
+	("horch_sound")
 }

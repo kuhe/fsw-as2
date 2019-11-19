@@ -15,7 +15,7 @@
 		{length 6}
 	}
 	{damage blastwave    
-		{energy 0.4}
+		{energy 0.3}
 		{area 3 4}
 	}		
 }

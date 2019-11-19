@@ -12,14 +12,26 @@
 	}
 )
 
+(define "phrase_voice_ger"
+	{phrase
+		{language "%1"}
+		{voice %2}
+		{sound "%0/talk/ger/%3/v%2"}
+		{text_dbg "(%1) ger/%3/v%2"}
+	}
+)
+
 (define "phrases"
 	("phrase_voice" args %0 rus 1 %1)
 	("phrase_voice" args %0 rus 2 %1)
 	("phrase_voice" args %0 rus 3 %1)
 
-	("phrase_voice" args %0 ger 1 %1)
-	("phrase_voice" args %0 ger 2 %1)
-
+	("phrase_voice_ger" args %0 ger 1 %1)
+	("phrase_voice_ger" args %0 ger 2 %1)
+	
+	("phrase_voice_ger" args %0 ger2 1 %1)
+	("phrase_voice_ger" args %0 ger2 2 %1)
+	
 	("phrase_voice" args %0 eng 1 %1)
 	("phrase_voice" args %0 eng 2 %1)
 

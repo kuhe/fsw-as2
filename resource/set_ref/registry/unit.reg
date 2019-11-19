@@ -1,16 +1,37 @@
 ;SDL
 {units
 ; almost no differences
+	{"pz1_ger2"
+		{structure "pz1"}
+	}
+	{"pz1b_ger2"
+		{structure "pz1b"}
+	}
+	{"pz3m_ger2"
+		{structure "pz3m"}
+	}
 	{"pz3"
 		{structure "pz3"}
 	}
+	{"pz3_ger2"
+		{structure "pz3"}
+	}
 	{"pz3f"
+		{structure "pz4g"}
+	}
+	{"pz3f_ger2"
+		{structure "pz4g"}
+	}
+	{"pz4g_ger2"
 		{structure "pz4g"}
 	}
 	{"pz4e"
 		{structure "pz4e"}
 	}
 	{"pz4h"
+		{structure "pz4g"}
+	}
+	{"pz4h_ger2"
 		{structure "pz4g"}
 	}
 	{"stug3g"
@@ -55,6 +76,9 @@
 	{"t34_1"
 		{structure "t34_2"}
 	}
+	{"t34_3_ger2"
+		{structure "t34_3"}
+	}
 	{"bedford_art"
 		{structure "bedford"}
 	}
@@ -85,10 +109,16 @@
 	{"blitz3_6"
 		{structure "truck4"}
 	}
+	{"blitz3_6_ger2"
+		{structure "truck4"}
+	}
 	{"blitz3_6arm"
 		{structure "truck4"}
 	}
 	{"blitz3_6art"
+		{structure "truck4"}
+	}
+	{"blitz3_6art_ger2"
 		{structure "truck4"}
 	}
 	{"blitz3_6inf"
@@ -98,6 +128,9 @@
 		{structure "truck4"}
 	}
 	{"blitz3_6eng"
+		{structure "truck4"}
+	}
+	{"blitz3_6eng_ger2"
 		{structure "truck4"}
 	}
 	{"zis5"
@@ -127,6 +160,12 @@
 	{"kubel_mgun"
 		{structure "kubel"}
 	}
+	{"kfz15"
+		{structure "kubel"}
+	}
+	{"kfz15_gun"
+		{structure "kubel"}
+	}
 	{"willysat"
 		{structure "willysmb"}
 	}
@@ -142,13 +181,46 @@
 	{"r12"
 		{structure "moto"}
 	}
+	{"r12_ger2"
+		{structure "moto"}
+	}
 	{"sdkfz223"
 		{structure "sdkfz222"}
 	}
 	{"sdkfz232"
 		{structure "sdkfz232"}
 	}
+	{"sdkfz234_ger2"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_1"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_3"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz234_4"
+		{structure "sdkfz234"}
+	}
+	{"sdkfz250_1"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz250_11"
+		{structure "sdkfz251"}
+	}
 	{"sdkfz251_1"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz7"
+		{structure "sdkfz251"}
+	}
+	{"sdkfz7_2"
+		{structure "sdkfz251_17"}
+	}
+	{"sdkfz8"
+		{structure "sdkfz251_17"}
+	}
+	{"sdkfz251_1_stuka"
 		{structure "sdkfz251"}
 	}
 	{"m3"
@@ -202,6 +274,9 @@
 	{"type1hmg_stan_fix"
 		{structure "mgun_stan"}
 	}
+	{"sgrw42_ger2"
+		{structure "sgrw42"}
+	}
 	{"bm37"
 		{structure "sgrw42"}
 	}
@@ -241,19 +316,40 @@
 	{"type2_20mm"
 		{structure "flak38_wheeled"}
 	}
+	{"flak38_wheeled_ger2"
+		{structure "flak38_wheeled"}
+	}
 	{"type2_20mm_stand"
+		{structure "flak38"}
+	}
+	{"flak38_ger2"
 		{structure "flak38"}
 	}
 	{"m1_57mm"
 		{structure "qf6"}
 	}
+	{"pak36_ger2"
+		{structure "pak36"}
+	}
 	{"pak38"
+		{structure "pak40"}
+	}
+	{"pak38_ger2"
+		{structure "pak40"}
+	}
+	{"pak40_ger2"
 		{structure "pak40"}
 	}
 	{"pak43"
 		{structure "pak40"}
 	}
+	{"sfh18_ger2"
+		{structure "sfh18"}
+	}
 	{"lefh18"
+		{structure "sfh18"}
+	}
+	{"lefh18_ger2"
 		{structure "sfh18"}
 	}
 	{"type96_150mm"
@@ -271,12 +367,21 @@
 	{"wespe"
 		{structure "hummel"}
 	}
+	{"wespe_ger2"
+		{structure "hummel"}
+	}
+	{"sdkfz138_1"
+		{structure "hummel"}
+	}
 	{"marder_3h"
 		{structure "hummel"}
 	}
 	{"flak37"
 		{structure "flak18"}
 	}
+	{"flak37_ger2"
+		{structure "flak18"}
+	}	
 	{"type4_75mm"
 		{structure "flak18"}
 	}
@@ -289,10 +394,22 @@
 	{"k61_fix"
 		{structure "61k"}	
 	}
+	{"pz6e_ger2"
+		{structure "pz6e"}	
+	}
 	{"veteran_tiger"
 		{structure "pz6e"}	
 	}
+	{"pz6bh_ger2"
+		{structure "pz6bh"}	
+	}
+	{"pz5g_ger2"
+		{structure "pz5g"}	
+	}
 	{"nebelwerfer41"
+		{structure "nebelwerfer42"}
+	}
+	{"swg41"
 		{structure "nebelwerfer42"}
 	}
 	{"cometa34"
@@ -343,8 +460,26 @@
 	{"ostwind"
 		{structure "welberwind"}
 	}
+	{"ostwind_ger2"
+		{structure "welberwind"}
+	}
 	{"crusaderaa1"
 		{structure "crusaderaa2"}
+	}
+	{"hetzer_ger2"
+		{structure "hetzer"}
+	}
+	{"nashorn_ger2"
+		{structure "nashorn"}
+	}
+	{"elefant_ger2"
+		{structure "elefant"}
+	}
+	{"jagdtiger_ger2"
+		{structure "jagdtiger"}
+	}
+	{"brummbar"
+		{structure "sturmtiger"}
 	}
 
 ; substitute

@@ -158,4 +158,5 @@
 	(include "vehicles_jap.set")
 	(include "vehicles_rus.set")
 	(include "vehicles_usa.set")
+	(include "vehicles_ger2.set")
 	(include "vehicles_x.set")
